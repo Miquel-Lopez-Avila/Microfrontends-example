@@ -17,6 +17,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - run: npm install --save --legacy-peer-deps @material-ui/core
       - run: npm install
       - run: npm run build
 
