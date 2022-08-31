@@ -4,7 +4,7 @@ import MarketingApp from './components/MarketingApp';
 const Application = () => {
     return (
         <div>
-            hi there!!!!!!!
+            hi there!!!!
             <hr/>
             <MarketingApp />
         </div>

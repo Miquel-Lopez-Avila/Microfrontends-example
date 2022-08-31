@@ -5,11 +5,11 @@ on:
     branches:
       - master
     paths:
-      - "packages/container/**"
+      - "packages/marketing/**"
 
 defaults:
   run:
-    working-directory: packages/container
+    working-directory: packages/marketing
 
 jobs:
   build:
