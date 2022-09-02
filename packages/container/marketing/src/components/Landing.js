@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
   card: {
     height: '100%',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
@@ -128,7 +128,7 @@ export default function Album() {
                     </Typography>
                     <Typography>
                       This is a media card. You can use this section to describe
-                      the content.
+                      the content!
                     </Typography>
                   </CardContent>
                   <CardActions>
