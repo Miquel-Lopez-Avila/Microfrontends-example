@@ -210,7 +210,7 @@
           :paginator="true"
         >
           <Column>
-            <template #header> Logo </template>
+            <template #header> Logo  </template>
             <template #body="slotProps">
               <img
                 :src="'assets/layout/images/product/' + slotProps.data.image"
