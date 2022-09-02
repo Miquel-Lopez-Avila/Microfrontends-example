@@ -174,6 +174,7 @@
               <span style="font-weight: bold">Last Activity</span>
               <p>Updated 1 minute ago</p>
             </div>
+
             <div class="p-col-6" style="text-align: right">
               <Button label="Refresh" icon="pi pi-refresh" />
             </div>
