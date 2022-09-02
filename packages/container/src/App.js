@@ -25,6 +25,7 @@ export default () => {
 
   useEffect(() => {
     if (isSignedIn) history.push('/dashboard')
+    else history.push('/')
   }, [isSignedIn])
 
   return (
@@ -41,7 +42,6 @@ export default () => {
                 <AuthLazy onSignIn={() => setIsSignedIn(true)} />
               </Route>
               <Route path="/dashboard">
-                {!isSignedIn && <Redirect to='/' />}
                 <DashboardLazy />
               </Route>
               <Route path="/" component={MarketingLazy} />
