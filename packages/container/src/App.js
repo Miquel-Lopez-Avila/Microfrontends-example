@@ -21,7 +21,9 @@ const Application = () => {
                     <Header isSignedIn={isSignedIn} onSignOut={() => setIsSignedIn(false)}/>
                     <Suspense fallback={<Progress />}>
                         <Switch>
-                            <Route path={'/auth'} component={<AuthLazy onSignIn={() => setIsSignedIn(true)}/>}/>
+                            <Route path={'/auth'}>
+                                <AuthLazy onSignIn={() => setIsSignedIn(true)} />
+                            </Route>
                             <Route path={'/'} component={MarketingLazy} />
                         </Switch>
                      </Suspense>
